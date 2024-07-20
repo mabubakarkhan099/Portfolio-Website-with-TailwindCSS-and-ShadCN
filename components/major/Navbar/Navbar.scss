@@ -1,0 +1,15 @@
+nav{
+
+    .active{
+        @apply bg-orange-400;
+
+    }
+    .nav-item{
+        @apply rounded-full;
+        padding: 15px 30px;
+        
+        .nav-link{
+            @apply text-white;
+        }
+    }
+}
